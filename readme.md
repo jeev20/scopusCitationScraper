@@ -38,7 +38,7 @@ Activate the virtualenv in windows
     .\env\Scripts\activate
 ```
 
-Activate the virtualenv in linux
+Activate the virtualenv in linux (Windows Subsystem for Linux - WSL)
 
 ```
     source /env/bin/activate.sh
