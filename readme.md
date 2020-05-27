@@ -17,28 +17,34 @@ https://www.sciencedirect.com/science/article/pii/S0925753519308835
 Step 1. Clone this repository 
 
 Step 2. Navigate into the cloned repository
+
 `
 cd scopusCitationScraper
 `
 
 Step 3. Setup a virtual environment  
+
 `
 pip install virtualenv 
 `
+
 `virtualenv env
 `
 
 Activate the virtualenv in windows
+
 `
 .\env\Scripts\activate
 `
 
 Activate the virtualenv in linux
+
 `
 source /env/bin/activate.sh
 `
 
 Step 4. Once the virtual environment is activated use the requirements.txt file to install all dependencies
+
 `
 pip install -r requirements.txt
 ` 
@@ -48,6 +54,7 @@ Step 6. Install Firefox browser (https://www.mozilla.org/en-US/firefox/new/)
 Step 7. Input DOIs you are interested in the doi.csv file 
 
 Step 8. Run 'ScopusScraper.py'
+
 `
 python ScopusScraper.py
 `
